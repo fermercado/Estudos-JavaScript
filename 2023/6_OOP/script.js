@@ -163,19 +163,19 @@ console.log(myPost);
 //
 
 class Mamifero {
-  constructor(patas){
-    this.patas = patas
+  constructor(patas) {
+    this.patas = patas;
   }
 }
 
 class Lobo extends Mamifero {
   constructor(patas, nome) {
-    super(patas, patas)
-    this.nome = nome
+    super(patas, patas);
+    this.nome = nome;
   }
 }
 
-const shark = new Lobo(4, "shark")
+const shark = new Lobo(4, "shark");
 
-console.log(shark)
-console.log(shark.patas)
+console.log(shark);
+console.log(shark.patas);
