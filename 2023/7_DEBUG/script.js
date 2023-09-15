@@ -63,5 +63,9 @@ try {
 
 
   checkArray([1,2,3,4])
-  checkArray([])
+  // checkArray([])
+
+  //
+
+  
 
